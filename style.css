@@ -114,6 +114,7 @@ meter {
 
 img{
     width:100%;
+    image-rendering: auto;
 
 }
 
