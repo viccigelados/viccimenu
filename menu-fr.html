@@ -1,24 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" class="menu">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gelataria Vicci</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VICCI – Menu FR</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Vicci" />
+    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest" />
+    <link rel="canonical" href="https://vicci.pt/menu-pt.html">
+    <link rel="alternate" href="https://vicci.pt/menu-pt.html" hreflang="pt-PT">
+    <link rel="alternate" href="https://vicci.pt/menu-en.html" hreflang="en">
+    <link rel="alternate" href="https://vicci.pt/menu-fr.html" hreflang="fr">
+    <link rel="alternate" href="https://vicci.pt/" hreflang="x-default">
+    <!-- PWA basics -->
+    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#a13765" />
+
+    <!-- iOS PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Vicci">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:url" content="https://vicci.pt/menu-fr.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vicci">
+    <meta property="og:description" content="Geladaria e Creparia">
+    <meta property="og:image" content="https://vicci.pt/assets/icons/favicon/web-app-manifest-512x512.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="vicci.pt">
+    <meta property="twitter:url" content="https://vicci.pt/menu-fr.html">
+    <meta name="twitter:title" content="Vicci">
+    <meta name="twitter:description" content="Geladaria e Creparia">
+    <meta name="twitter:image" content="https://vicci.pt/assets/icons/favicon/web-app-manifest-512x512.png">
 </head>
-<body>
-    <div class="main">
-        <div class="imgcontainer">
-            <img src="./FR.png" alt="" srcset="">
-            <!--
-            <div class="flagscontainer">
-                <a href="/PT.jpg"><img src="./PT.png" alt="" srcset=""></a>
-                <a href="/EN.jpg"><img src="./GB.png" alt="" srcset=""></a>
-                <a href="/FR.jpg"><img src="./FR.png" alt="" srcset=""></a>
-            </div>
-            -->
-        </div>
+<body class="menu">
+<!-- Barre supérieure fixe avec logo et drapeaux -->
+<header class="topbar" role="banner" aria-label="Barre principale">
+    <a class="brandmark" href="index.html" aria-label="VICCI – Accueil">
+        <img src="./assets/images/logo.jpg" alt="VICCI" />
+    </a>
+    <nav class="langswitch" aria-label="Sélecteur de langue">
+        <a href="menu-en.html" aria-label="English menu">
+            <img src="./assets/icons/bandeira-en.svg" alt="English" />
+        </a>
+        <a href="menu-fr.html" aria-current="page" aria-label="Menu français">
+            <img src="./assets/icons/bandeira-fr.svg" alt="Français" />
+        </a>
+        <a href="menu-pt.html" aria-label="Menu portugais">
+            <img src="./assets/icons/bandeira-pt.svg" alt="Português" />
+        </a>
+    </nav>
+</header>
+
+<main class="menu-page" role="main">
+    <div class="imgcontainer">
+        <img src="imagens/FR.png" alt="Menu VICCI (Français)" loading="eager" />
     </div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/footer.js" defer></script>
+<script src="assets/js/pwa-navigation.js" defer></script>
 </body>
 </html>

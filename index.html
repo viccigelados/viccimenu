@@ -1,22 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VICCI – Geladaria e Creperia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Vicci" />
+    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest" />
+    <!-- Canonical -->
+    <link rel="canonical" href="https://vicci.pt" />
+    <!-- Alternate language versions -->
+    <link rel="alternate" href="https://vicci.pt/menu-pt.html" hreflang="pt-PT">
+    <link rel="alternate" href="https://vicci.pt/menu-en.html" hreflang="en">
+    <link rel="alternate" href="https://vicci.pt/menu-fr.html" hreflang="fr">
+    <link rel="alternate" href="https://vicci.pt/" hreflang="x-default">
+
+   <!-- ✅ PWA basics -->
+    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#a13765" />
+    <meta name="background-color" content="#a13765" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- ✅ Android/Chrome specific (ensures bottom nav bar adopts theme color) -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#a13765">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#a13765">
+
+    <!-- ✅ iOS PWA support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#a13765">
+    <meta name="apple-mobile-web-app-title" content="Vicci">
+    <link rel="apple-touch-icon" href="/assets/icons/pwa/icon-192-maskable.png">
+
+    <!-- ✅ Optional: Windows / Edge support -->
+    <meta name="msapplication-navbutton-color" content="#a13765">
+    <meta name="msapplication-TileColor" content="#a13765">
+    
+    <!-- HTML Meta Tags -->
+    <title>Vicci</title>
+    <meta name="description" content="Geladaria e Creparia">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:url" content="https://vicci.pt">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vicci">
+    <meta property="og:description" content="Geladaria e Creparia">
+    <meta property="og:image" content="https://vicci.pt/assets/icons/favicon/web-app-manifest-512x512.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="vicci.pt">
+    <meta property="twitter:url" content="https://vicci.pt">
+    <meta name="twitter:title" content="Vicci">
+    <meta name="twitter:description" content="Geladaria e Creparia">
+    <meta name="twitter:image" content="https://vicci.pt/assets/icons/favicon/web-app-manifest-512x512.png">
+
+    <!-- Meta Tags Generated via https://opengraph.dev -->
 </head>
 <body>
-    <div class="main">
-        <div class="imgcontainer">
-            <img src="./imagens/main.jpg" alt="" srcset="">
-            <div class="flagscontainer">
-                <a href="menu-pt.html"><img src="./imagens/bandeira-pt.png" alt="" srcset=""></a>
-                <a href="menu-en.html"><img src="./imagens/bandeira-en.png" alt="" srcset=""></a>
-                <a href="menu-fr.html"><img src="./imagens/bandeira-fr.png" alt="" srcset=""></a>
-            </div>
-        </div>
-    </div>
+<main class="main">
+    <nav class="flagscontainer">
+        <a href="menu-en.html" aria-label="English menu">
+            <img src="./assets/icons/bandeira-en.svg" alt="English" />
+        </a>
+        <a href="menu-fr.html" aria-label="French menu">
+            <img src="./assets/icons/bandeira-fr.svg" alt="Français" />
+        </a>
+        <a href="menu-pt.html" aria-label="Portuguese menu">
+            <img src="./assets/icons/bandeira-pt.svg" alt="Português" />
+        </a>
+    </nav>
+</main>
+<script src="/assets/js/pwa-navigation.js"></script>
 </body>
 </html>
