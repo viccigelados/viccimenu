@@ -128,10 +128,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: clamp(14px, 3.6vmin, 34px);
+    gap: clamp(20px, 3.6vmin, 34px);
     margin-bottom: clamp(22px, 4.5vmin, 52px);
 
-    padding: 10px 18px;
+    padding: clamp(10px, 2.4vmin, 22px) clamp(18px, 3.6vmin, 32px);
     border-radius: 999px;
     backdrop-filter: blur(6px);
     background: rgba(255, 255, 255, 0.65);
@@ -139,7 +139,7 @@ body {
 
 /* Larger, fluid flag buttons */
 .flagscontainer img {
-    width: clamp(32px, 6vmin, 56px);  /* increased size */
+    width: clamp(56px, 9.2vmin, 90px);
     height: auto;
     display: block;
     transition: transform 0.15s ease;
@@ -187,12 +187,12 @@ body {
 .topbar .langswitch {
     display: flex;
     align-items: center;
-    gap: clamp(10px, 2.8vmin, 18px);
+    gap: clamp(16px, 4.5vmin, 20px);
 }
 
 .topbar .langswitch img {
     display: block;
-    height: clamp(22px, 4.6vmin, 30px);
+    height: clamp(36px, 6.2vmin, 48px);
     width: auto;
     filter: drop-shadow(0 1px 1px rgba(0,0,0,.35));
     transition: transform .15s ease;
